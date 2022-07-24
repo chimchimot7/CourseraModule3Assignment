@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0
+
+}
+.navbar{
+
+border: none;
+background-color: black;
+
+}
+
+#myNavbar ul li a {
+    color: #8EE4AF;
+}
+
+.navbar-brand {
+    font color : #8EE4AF;
+    font-family: overpass;
+    font-size: 25px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #5CDB95;
+    font-family: "Amasis MT Pro Medium", cursive, sans-serif;
+
+}
+
+
+h1{
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+
+.box{  
+    border: 3px solid black;
+    margin: 1%;
+    color: black;
+    background-color:  #8EE4AF;
+}
+.content-name{
+    text-align: center;
+    color : white;
+    font-size : 20px;
+    font-family: overpass;
+    }
+
+
+@media(min-width: 992px){
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    column-md-6,.col-md-12{
+        float: left;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-12{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .name3{
+        margin-right: 65px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+      .col-sm-12{
+        float: left;
+        width: 100%;
+      }
+      .content-name{
+        margin-right: 30px;
+      }
+}
+
